@@ -14,7 +14,7 @@ CommandLine = require('../lib/index');
 cmd = new CommandLine({ 
     debug : true, 
     error : true, 
-    delay : 5 });
+    delay : true });
 
 commandItemsArray=[
     ['osascript', '-e', 'tell application "Spotify" to player position as string'],
