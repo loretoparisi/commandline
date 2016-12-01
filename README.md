@@ -1,6 +1,22 @@
 # commandline
 Commandline packages simplifies the asynchronous binary execution from Node
 
+# How to install
+You can install this module throught git
+
+```
+git clone https://github.com/loretoparisi/commandline.git
+cd commandline/
+npm install
+node tests/example
+```
+
+or through npm package manager
+
+```
+var CommandLine = require('node-commander');
+```
+
 # How to use
 Define a list of commands by executable name, parameters in a array like
 
@@ -13,7 +29,6 @@ that is `ls -s ./`, `ls -a ./`.
 Create an new `Commandline` instance
 
 ```javascript
-var cmd=require('commandline');
 var cmd = new CommandLine({ 
     debug : true, 
     error : true, 
