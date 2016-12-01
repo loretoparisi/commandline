@@ -1,6 +1,6 @@
 {
-  "name": "commandline",
-  "description": "Commandline for Node.js",
+  "name": "node-commander",
+  "description": "Command line tools for Node.js",
   "version": "1.0.0",
   "homepage": "https://github.com/loretoparisi/commandline.git",
  	"author": {
